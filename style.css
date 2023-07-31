@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+form {
+    /* width: 20%; */
+    height: 40%;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-head {
+    flex: 0.5;
+    display: flex;
+}
+
+.username {
+    
+    display: flex;
+    gap: 5px;
+}
+.sign{
+    background-color: aquamarine;
+    width: 175px;
+    border: 1px solid;
+}
+.log{
+    width: 175px;
+    border: 1px solid;
+}
+p{
+    text-align: center;
+    size: 50px;
+}
+.form-body {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Email{
+    width: 350px;
+}
+.password{
+    width: 350px;
+    
+}
+
+.form-footer {
+    flex: 0.5;
+}
+.get-start{
+    background-color: aquamarine;
+    height: 20px;
+}
+
